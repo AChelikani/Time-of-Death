@@ -18,9 +18,9 @@ class DeathPredictor(object):
     def deathPredictNaive(self, age):
         prediction = {}
         yearsUntilDeath = int(constants.LIFE_EXPECTANCY - age)
-        prediction["year"] = constants.TODAY_YEAR + yearsUntilDeath
+        prediction["year"] = str(constants.TODAY_YEAR + yearsUntilDeath)
         prediction["month"] = constants.MONTHS[constants.TODAY_MONTH - 1]
-        prediction["day"] = constants.TODAY_DAY
+        prediction["day"] = str(constants.TODAY_DAY)
         return prediction
 
 
