@@ -2,4 +2,4 @@
 An art installation that uses Raspberry Pi + Camera Module and age recognition to predict a time of death
 
 
-![Art Exhibit][view.jpg?raw=true]
+![Art Exhibit][img/view.jpg?raw=true]
